@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3ac79ba1a699ffd0bb91dfd71dd65be",
+    "content-hash": "8236dd04a2e58db6e492fbb19345ab48",
     "packages": [
         {
             "name": "brick/math",
@@ -217,6 +217,57 @@
                 }
             ],
             "time": "2020-11-24T19:55:57+00:00"
+        },
+        {
+            "name": "elgentos/parser",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/elgentos/parser.git",
+                "reference": "90283bfe2a28660479e6efc422673f77c508ba98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/elgentos/parser/zipball/90283bfe2a28660479e6efc422673f77c508ba98",
+                "reference": "90283bfe2a28660479e6efc422673f77c508ba98",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5",
+                "symfony/yaml": "^3.4 || ^4.0 || ^5.0"
+            },
+            "suggest": {
+                "symfony/yaml": "Install symfony/yaml to support yaml parsing"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Elgentos\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeroen Boersma",
+                    "email": "jeroen@elgentos.nl",
+                    "homepage": "https://github.com/JeroenBoersma"
+                }
+            ],
+            "description": "Elgentos Parser for json/yaml files to readable array",
+            "homepage": "https://elgentos.nl/",
+            "support": {
+                "issues": "https://github.com/elgentos/parser/issues",
+                "source": "https://github.com/elgentos/parser/tree/3.0.0"
+            },
+            "time": "2021-09-15T19:11:57+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -1176,6 +1227,57 @@
                 }
             ],
             "time": "2021-12-01T16:20:42+00:00"
+        },
+        {
+            "name": "kba-team/markdown-table",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/the-kbA-team/markdown-table.git",
+                "reference": "69b0d16fba2ce9d50ec2f0ddf0889837557913b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/the-kbA-team/markdown-table/zipball/69b0d16fba2ce9d50ec2f0ddf0889837557913b2",
+                "reference": "69b0d16fba2ce9d50ec2f0ddf0889837557913b2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "kbATeam\\MarkdownTable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gregor J.",
+                    "email": "gregor-j@users.noreply.github.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Create a markdown table string from an associative array.",
+            "keywords": [
+                "array",
+                "markdown",
+                "markdown-table",
+                "table"
+            ],
+            "support": {
+                "issues": "https://github.com/the-kbA-team/markdown-table/issues",
+                "source": "https://github.com/the-kbA-team/markdown-table/tree/1.0.2"
+            },
+            "time": "2020-01-27T11:38:40+00:00"
         },
         {
             "name": "laravel-zero/foundation",
