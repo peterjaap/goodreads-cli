@@ -7,38 +7,12 @@ use LaravelZero\Framework\Commands\Command;
 
 class Parse extends Command
 {
-    /**
-     * The signature of the command.
-     *
-     * @var string
-     */
-    protected $signature = 'command:name';
+    protected $signature = 'parse';
 
-    /**
-     * The description of the command.
-     *
-     * @var string
-     */
-    protected $description = 'Command description';
+    protected $description = 'Parse CSV to create Markdown table';
 
-    /**
-     * Execute the console command.
-     *
-     * @return mixed
-     */
-    public function handle()
+    public function handle() : void
     {
-        //
-    }
-
-    /**
-     * Define the command's schedule.
-     *
-     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
-     * @return void
-     */
-    public function schedule(Schedule $schedule): void
-    {
-        // $schedule->command(static::class)->everyMinute();
+        
     }
 }
